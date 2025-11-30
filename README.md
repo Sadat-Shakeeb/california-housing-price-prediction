@@ -175,18 +175,6 @@ Can be loaded for production or further inference:
 model = joblib.load("best_house_price_model.pkl")
 preds = model.predict(new_data)
 ```
-
----
-
-# Project Structure (Suggested)
-
-```
-│── README.md
-│── notebook.ipynb
-│── best_house_price_model.pkl
-│── requirements.txt
-```
-
 ---
 
 # Technologies Used
